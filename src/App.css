@@ -1,0 +1,55 @@
+body, html, #root { height: 100%; }
+
+.app-root {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9f0ff 100%);
+  padding-bottom: 40px;
+}
+
+.product-card {
+  border: none;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.image-wrapper {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.product-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+.product-name {
+  margin-top: 0.75rem;
+  font-weight: 700;
+  color: #20335b;
+}
+
+.product-price {
+  color: #0b6bff;
+  font-size: 1.05rem;
+}
+
+.product-description {
+  color: #354a67;
+}
+
+.greeting p {
+  font-weight: 600;
+  color: #1b3b6f;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+} 
